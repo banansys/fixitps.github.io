@@ -1,0 +1,21 @@
+$primary-500: #8bc34a;
+$primary-600: #7cb342;
+$primary-700: #689f38;
+
+// Import Pico
+@import "@picocss/pico/scss/pico";
+
+#app {
+	height: 100vh;
+	width: 100vw;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+hgroup {
+	border-left: solid 10px $primary-500;
+	padding-left: 15px;
+}
